@@ -1,0 +1,4 @@
+#/bin/bash
+
+g++ $1 `mysql_config --cflags --libs` -o test
+

@@ -1,0 +1,2 @@
+ev=Environment(CC = 'mysqlbuild')
+ev.Program(['main.cpp','VspdTOMySQL.cpp'])
